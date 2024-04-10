@@ -58,8 +58,6 @@ const Todo = () => {
     const result = todoState.filter((user:TodoItem) => user.title.toLowerCase().includes(value.toLowerCase()))
     setTodoSearchData(result)
     setTodoSearchValue(value)
-    console.log(result,'result');
-    
   }
 
   const todoDelete = (i:TodoItem) => {
